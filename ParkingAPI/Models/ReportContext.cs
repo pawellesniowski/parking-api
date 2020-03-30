@@ -16,5 +16,6 @@ namespace ParkingAPI.Models
         public DbSet<MonthlyReport> MonthlyReports { get; set; }
         public DbSet<QuarterReport> QuarterReports { get; set; }
         public DbSet<YearlyReport> YearlyReports { get; set; }
+        public DbSet<CarVisit> CarVisits { get; set; }
     }
 }
